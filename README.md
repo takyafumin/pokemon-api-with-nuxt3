@@ -76,3 +76,39 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## TIPS
+
+### プロジェクトセットアップ
+
+#### ESLint導入
+
+```bash
+npx nuxi module add eslint
+```
+
+#### typescriptのバージョンダウングレード
+
+以下の警告が出るため、ダウングレードする
+
+```bash
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=4.7.4 <5.6.0
+
+YOUR TYPESCRIPT VERSION: 5.6.3
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+```
+
+ダウングレード
+
+```bash
+npm install typescript@5.5.x
+```
