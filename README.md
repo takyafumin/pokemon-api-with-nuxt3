@@ -5,6 +5,9 @@ PokemonAPIをNuxt3で使ってみる
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+* Pokemon API
+    - [Pokemon API](https://pokeapi.co/)
+
 ## Setup
 
 Make sure to install the dependencies:
