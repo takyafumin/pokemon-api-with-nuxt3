@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from '~/feature/pokemon-search/components/HelloWorld.vue'
+import PokemonList from '~/features/pokemon/components/PokemonList.vue'
 
 useHead({
   title: 'ポケモン図鑑',
@@ -7,5 +7,5 @@ useHead({
 </script>
 
 <template>
-  <HelloWorld />
+  <PokemonList />
 </template>
