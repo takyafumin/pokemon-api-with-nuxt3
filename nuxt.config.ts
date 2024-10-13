@@ -6,8 +6,23 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2024-04-03',
+  build: {
+    transpile: ['vuetify'],
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          charset: false,
+        },
+      },
+    },
+  },
   devtools: { enabled: true },
   modules: ['@nuxt/eslint'],
+  plugins: [
+    './plugins/vuetify',
+  ],
   sourcemap: {
     server: true,
     client: true,
