@@ -5,23 +5,17 @@
       permanent
     >
       <v-list>
-        <v-list-item-group>
-          <v-list-item link>
-            <v-list-item-icon>
-              <v-icon>mdi-view-dashboard</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Dashboard</v-list-item-title>
-          </v-list-item>
+        <v-list-item link>
+          <v-icon>mdi-view-dashboard-outline</v-icon>
+          <v-list-item-title>Dashboard</v-list-item-title>
+        </v-list-item>
 
-          <v-list-item link>
-            <v-list-item-icon>
-              <v-icon>mdi-cog</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Settings</v-list-item-title>
-          </v-list-item>
+        <v-list-item link>
+          <v-icon>mdi-cog-outline</v-icon>
+          <v-list-item-title>Settings</v-list-item-title>
+        </v-list-item>
 
-          <!-- 必要に応じて他のメニュー項目を追加 -->
-        </v-list-item-group>
+        <!-- 必要に応じて他のメニュー項目を追加 -->
       </v-list>
     </v-navigation-drawer>
 
